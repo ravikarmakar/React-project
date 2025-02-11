@@ -17,7 +17,7 @@ const Table = () => {
     status: "",
   });
 
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery] = useState("");
 
   const [sortConfig, setSortConfig] = useState<{
     key: string;
